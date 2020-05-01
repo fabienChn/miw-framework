@@ -1,0 +1,22 @@
+<html>
+<head>
+    <script src="dist/miw-framework.min.js"></script>
+</head>
+<body>
+    <span id="test">hello</span>
+    <script>
+        _('#test').css({color: 'red', 'font-size': '30px'});
+
+        console.log(_('#test').left(2));
+        console.log(_('#test').capitalize());
+
+        var a = ['a', 'b', 'c'];
+        var b = ['x', 'y', 'z'];
+
+        var newArray = _().merge(a, b);
+        console.log(newArray);
+
+        _().cn('div', {}, {height: '500px', width: '200px', border: '1px solid black'}, _('body').get());
+    </script>
+</body>
+</html>

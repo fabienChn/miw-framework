@@ -1,0 +1,1 @@
+{"version":3,"sources":["../init.js"],"names":["_","cssSelector","Miw","__"],"mappings":";;AAAA,IAAMA,IAAI,SAAJA,CAAI,CAASC,WAAT,EAAsB;AAC5B,WAAO,IAAIC,GAAJ,CAAQD,WAAR,CAAP;AACH,CAFD;;AAIA,IAAME,KAAKD,GAAX","file":"init.js","sourcesContent":["const _ = function(cssSelector) {\r\n    return new Miw(cssSelector);\r\n};\r\n\r\nconst __ = Miw;"]}
